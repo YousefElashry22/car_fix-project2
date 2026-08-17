@@ -20,8 +20,8 @@ export default function Home() {
         label="PRECISION"
         title="Advanced Diagnostics"
         description="Computerized scanning reveals hidden issues before they become costly failures."
-        primaryImage="/images/engine.jpg"
-        secondaryImage="/images/workshop.jpg"
+        primaryImage={import.meta.env.BASE_URL + 'images/engine.jpg'}
+        secondaryImage={import.meta.env.BASE_URL + 'images/workshop.jpg'}
         primaryAlt="Engine diagnostics"
         secondaryAlt="AUTOVEX workshop"
         primaryPosition="center 40%"
@@ -33,7 +33,7 @@ export default function Home() {
       <CinematicStatement
         title="Built for Performance."
         description="Every service. Every system. No compromises."
-        imageSrc="/images/bmw.jpg"
+        imageSrc={import.meta.env.BASE_URL + 'images/bmw.jpg'}
         imageAlt="Performance"
         objectPosition="center 45%"
         expandReveal
@@ -44,7 +44,7 @@ export default function Home() {
         label="BRAKES"
         title="Brake Service"
         description="Complete brake system inspection and maintenance for safe, reliable stopping."
-        imageSrc="/images/brakes.jpg"
+        imageSrc={import.meta.env.BASE_URL + 'images/brakes.jpg'}
         imageAlt="Brake Service"
         layout="image-left"
         reveal="clip"

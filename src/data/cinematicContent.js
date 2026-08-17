@@ -13,7 +13,7 @@ export const premiumServices = [
     title: 'Advanced\nDiagnostics',
     description:
       'Computerized scanning reveals hidden issues before they become costly failures.',
-    imageSrc: '/images/engine.jpg',
+    imageSrc: import.meta.env.BASE_URL + 'images/engine.jpg',
     imageAlt: 'Engine Diagnostics',
     objectPosition: 'center center',
     layout: 'image-left',
@@ -31,7 +31,7 @@ export const premiumServices = [
     title: 'Brake\nService',
     description:
       'Complete brake system inspection and maintenance for safe, reliable stopping power.',
-    imageSrc: '/images/brakes.jpg',
+    imageSrc: import.meta.env.BASE_URL + 'images/brakes.jpg',
     imageAlt: 'Brake Service',
     objectPosition: 'center center',
     layout: 'image-right',
@@ -49,7 +49,7 @@ export const premiumServices = [
     title: 'Oil &\nFilter',
     description:
       'Essential fluid maintenance for optimal engine performance and longevity.',
-    imageSrc: '/images/workshop.jpg',
+    imageSrc: import.meta.env.BASE_URL + 'images/workshop.jpg',
     imageAlt: 'Oil & Filter Service',
     objectPosition: 'center 30%',
     layout: 'image-left',
@@ -67,7 +67,7 @@ export const premiumServices = [
     title: 'AC &\nCooling',
     description:
       'Climate and cooling system service to keep your cabin comfortable and engine protected.',
-    imageSrc: '/images/car-hero.jpg',
+    imageSrc: import.meta.env.BASE_URL + 'images/car-hero.jpg',
     imageAlt: 'AC & Cooling',
     objectPosition: 'center center',
     layout: 'image-right',
@@ -85,7 +85,7 @@ export const premiumServices = [
     title: 'Electrical\nDiagnostics',
     description:
       'Complete electrical system inspection — battery, alternator, sensors, and wiring.',
-    imageSrc: '/images/engine.jpg',
+    imageSrc: import.meta.env.BASE_URL + 'images/engine.jpg',
     imageAlt: 'Electrical Diagnostics',
     objectPosition: 'center 60%',
     layout: 'image-left',
@@ -103,7 +103,7 @@ export const premiumServices = [
     title: 'Performance\nService',
     description:
       'Precision tuning and maintenance for vehicles engineered to perform at their peak.',
-    imageSrc: '/images/bmw.jpg',
+    imageSrc: import.meta.env.BASE_URL + 'images/bmw.jpg',
     imageAlt: 'Performance Service',
     objectPosition: 'center center',
     layout: 'image-right',
@@ -123,7 +123,7 @@ export const stickyServiceItems = [
     title: 'Engine',
     description:
       'Advanced diagnostics and precision mechanical care to keep your powertrain running at peak efficiency.',
-    image: '/images/engine.jpg',
+    image: import.meta.env.BASE_URL + 'images/engine.jpg',
     objectPosition: 'center 40%',
   },
   {
@@ -132,7 +132,7 @@ export const stickyServiceItems = [
     title: 'Brakes',
     description:
       'Complete brake system inspection and service for confident, reliable stopping power.',
-    image: '/images/brakes.jpg',
+    image: import.meta.env.BASE_URL + 'images/brakes.jpg',
     objectPosition: 'center center',
   },
   {
@@ -141,7 +141,7 @@ export const stickyServiceItems = [
     title: 'Diagnostics',
     description:
       'Electronic scanning and fault analysis to identify issues before they become costly repairs.',
-    image: '/images/workshop.jpg',
+    image: import.meta.env.BASE_URL + 'images/workshop.jpg',
     objectPosition: 'center 35%',
   },
   {
@@ -150,7 +150,7 @@ export const stickyServiceItems = [
     title: 'Performance',
     description:
       'Tuned maintenance and optimization for vehicles that demand more from every drive.',
-    image: '/images/bmw.jpg',
+    image: import.meta.env.BASE_URL + 'images/bmw.jpg',
     objectPosition: 'center center',
   },
 ]

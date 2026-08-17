@@ -19,7 +19,7 @@ const services = [
     label: 'PRECISION',
     title: 'Advanced Diagnostics',
     description: 'Detailed scans uncover faults before they become expensive problems.',
-    image: '/images/engine.jpg',
+    image: import.meta.env.BASE_URL + 'images/engine.jpg',
     objectPosition: 'center center',
     features: [
       { title: 'System Scan', detail: 'Full health analysis' },
@@ -33,7 +33,7 @@ const services = [
     label: 'SAFETY',
     title: 'Brake Service',
     description: 'Precision inspection and service for safer stops and better control.',
-    image: '/images/brakes.jpg',
+    image: import.meta.env.BASE_URL + 'images/brakes.jpg',
     objectPosition: 'center center',
     features: [
       { title: 'Brake Check', detail: 'Pad and rotor wear' },
@@ -47,7 +47,7 @@ const services = [
     label: 'MAINTENANCE',
     title: 'Performance Maintenance',
     description: 'Essential care designed to preserve reliability, efficiency, and power.',
-    image: '/images/workshop.jpg',
+    image: import.meta.env.BASE_URL + 'images/workshop.jpg',
     objectPosition: 'center 38%',
     features: [
       { title: 'Fluid Service', detail: 'Engine-specific care' },
@@ -61,7 +61,7 @@ const services = [
     label: 'ELECTRICAL',
     title: 'Electrical Diagnostics',
     description: 'Complete electrical analysis to keep every system precise and dependable.',
-    image: '/images/bmw.jpg',
+    image: import.meta.env.BASE_URL + 'images/bmw.jpg',
     objectPosition: 'center center',
     features: [
       { title: 'Battery Test', detail: 'Power and health check' },

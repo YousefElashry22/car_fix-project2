@@ -9,7 +9,7 @@ const storySteps = [
     badge: '01 · COMPLETE VEHICLE',
     title: 'Complete Vehicle',
     description: 'A clean, confident start with the chassis, bodywork, and finish inspected as one complete system.',
-    image: '/images/car-hero.jpg',
+    image: import.meta.env.BASE_URL + 'images/car-hero.jpg',
     imagePosition: 'center center',
   },
   {
@@ -17,7 +17,7 @@ const storySteps = [
     badge: '02 · DIAGNOSTICS',
     title: 'Diagnostics',
     description: 'Advanced electronic scanning reveals the hidden issues before they become costly failures.',
-    image: '/images/engine.jpg',
+    image: import.meta.env.BASE_URL + 'images/engine.jpg',
     imagePosition: 'center center',
   },
   {
@@ -25,7 +25,7 @@ const storySteps = [
     badge: '03 · ENGINE / MECHANICAL',
     title: 'Engine & Mechanical',
     description: 'Precision inspection and maintenance keep the powertrain reliable, efficient, and road-ready.',
-    image: '/images/engine.jpg',
+    image: import.meta.env.BASE_URL + 'images/engine.jpg',
     imagePosition: 'center center',
   },
   {
@@ -33,7 +33,7 @@ const storySteps = [
     badge: '04 · BRAKES / WHEELS',
     title: 'Brakes & Wheels',
     description: 'Safety-critical components are tested and restored for sharper control, stability, and confidence.',
-    image: '/images/brakes.jpg',
+    image: import.meta.env.BASE_URL + 'images/brakes.jpg',
     imagePosition: 'center center',
   },
   {
@@ -41,7 +41,7 @@ const storySteps = [
     badge: '05 · MAINTENANCE',
     title: 'Maintenance',
     description: 'Routine care and expert checks prevent wear, downtime, and preventable repairs.',
-    image: '/images/workshop.jpg',
+    image: import.meta.env.BASE_URL + 'images/workshop.jpg',
     imagePosition: 'center center',
   },
   {
@@ -49,7 +49,7 @@ const storySteps = [
     badge: '06 · COMPLETE VEHICLE',
     title: 'Complete Vehicle',
     description: 'The final result: a clean, properly maintained car delivered ready to perform without compromise.',
-    image: '/images/car-hero.jpg',
+    image: import.meta.env.BASE_URL + 'images/car-hero.jpg',
     imagePosition: 'center center',
   },
 ]
