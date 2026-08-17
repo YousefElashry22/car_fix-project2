@@ -1,0 +1,1 @@
+Place large page sections here if you intend to extract page sections into reusable components (e.g., Hero, CTA, FeatureList). This project currently keeps most sections under src/components; create section files here only if you refactor components into section-level components.

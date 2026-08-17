@@ -1,0 +1,1 @@
+Pages live here. Existing pages are already in src/pages; no move performed to avoid breaking imports.

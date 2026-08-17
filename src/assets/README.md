@@ -1,0 +1,1 @@
+Use src/assets for assets that are imported from JS/TS code. Public assets (referenced as /images/...) should remain in public/.
