@@ -12,7 +12,7 @@ export default function CTA({
     <section className="relative py-20 lg:py-28 overflow-hidden bg-[#0A0C0F]">
       <video
         className="absolute inset-0 h-full w-full object-cover opacity-80"
-        src="/1.mp4"
+        src={import.meta.env.BASE_URL + '1.mp4'}
         autoPlay
         muted
         loop

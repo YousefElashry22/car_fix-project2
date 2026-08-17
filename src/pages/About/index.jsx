@@ -55,7 +55,7 @@ export default function About() {
             {/* Right Visual Image Banner (5 cols) */}
             <div className="lg:col-span-5 rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative img-16-10 bg-[#121518] group">
               <img
-                src="/images/workshop.jpg"
+                src={import.meta.env.BASE_URL + 'images/workshop.jpg'}
                 alt="AUTOVEX Facility & Technicians"
                 className="img-cover group-hover:scale-[1.03] transition-transform duration-300"
               />

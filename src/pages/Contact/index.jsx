@@ -147,7 +147,7 @@ export default function Contact() {
             </div>
 
             <CinematicImage
-              src="/images/workshop.jpg"
+              src={import.meta.env.BASE_URL + 'images/workshop.jpg'}
               alt="AUTOVEX Main Service & Diagnostic Facility"
               objectPosition="center 35%"
               parallax

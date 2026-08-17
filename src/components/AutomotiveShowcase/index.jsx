@@ -203,7 +203,7 @@ export default function AutomotiveShowcase() {
               playsInline
               preload="auto"
             >
-              <source src="/car-video.mp4" type="video/mp4" />
+              <source src={import.meta.env.BASE_URL + 'car-video.mp4'} type="video/mp4" />
             </video>
 
             {/* Subtle Gradient Overlays */}

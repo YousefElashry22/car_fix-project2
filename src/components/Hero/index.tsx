@@ -22,7 +22,7 @@ export default function Hero({ onBookService = () => window.location.assign('/co
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
       >
-        <source src="/car-video.mp4" type="video/mp4" />
+        <source src={import.meta.env.BASE_URL + 'car-video.mp4'} type="video/mp4" />
       </motion.video>
 
       <motion.div
